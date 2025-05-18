@@ -1,0 +1,27 @@
+music_streaming/
+├── manage.py
+├── music_streaming/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── streaming/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── migrations/
+│   ├── models.py
+│   ├── templates/
+│   │   ├── base.html
+│   │   ├── home.html
+│   │   ├── login.html
+│   │   ├── register.html
+│   │   ├── playlist_detail.html
+│   │   └── song_detail.html
+│   ├── static/
+│   │   └── css/
+│   │       └── styles.css
+│   ├── urls.py
+│   └── views.py
+└── requirements.txt
+"""
