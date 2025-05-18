@@ -1,8 +1,8 @@
-# Project Structure
+#project structure
 """
-L12/
+music_app/
 ├── manage.py
-├── my_music_app/
+├── music_app/
 │   ├── __init__.py
 │   ├── settings.py
 │   ├── urls.py
@@ -13,20 +13,25 @@ L12/
 │   ├── apps.py
 │   ├── migrations/
 │   ├── models.py
+│   ├── serializers.py
+│   ├── forms.py
 │   ├── templates/
-│   │   ├── music/
-│   │   │   ├── base.html
-│   │   │   ├── index.html
-│   │   │   ├── song_detail.html
-│   │   │   ├── login.html
-│   │   │   ├── register.html
+│   │   ├── base.html
+│   │   ├── index.html
+│   │   ├── song_list.html
+│   │   ├── song_detail.html
+│   │   ├── song_form.html
+│   │   ├── song_confirm_delete.html
+│   │   ├── register.html
+│   │   ├── login.html
+│   │   ├── search.html
 │   ├── static/
-│   │   ├── music/
-│   │   │   ├── css/
-│   │   │   │   ├── styles.css
-│   │   │   ├── js/
-│   │   │   │   ├── player.js
+│   │   ├── css/
+│   │   │   ├── styles.css
 │   ├── tests.py
 │   ├── urls.py
 │   ├── views.py
-"""
+├── media/
+│   ├── covers/
+│   ├── songs/
+├── requirements.txt
