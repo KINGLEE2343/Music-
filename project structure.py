@@ -1,3 +1,5 @@
+# project structure
+"""
 music_streaming/
 ├── manage.py
 ├── music_streaming/
