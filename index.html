@@ -1,0 +1,21 @@
+"""
+{% extends 'music/base.html' %}
+{% block content %}
+<h1>Music Library</h1>
+<div class="song-list">
+    {% for song in songs %}
+        <div class="song-item">
+            <a href="{% url 'song_detail' song.id %}">
+                {% if song.cover_image %}
+                    <img src="{{ song.cover_image.url }}" alt="{{ song.title }}">
+                {% endif %}
+                <h3>{{ song.title }}</h3>
+                <p>{{ song.artist.name }}</p>
+            </a>
+        </div>
+    {% empty %}
+        <p>No songs available.</p>
+    {% endfor %}
+</div>
+{% endblock %}
+"""
