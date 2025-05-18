@@ -1,29 +1,32 @@
-# project structure
+# Project Structure
 """
-music_streaming/
+L12/
 ├── manage.py
-├── music_streaming/
+├── my_music_app/
 │   ├── __init__.py
 │   ├── settings.py
 │   ├── urls.py
-│   └── wsgi.py
-├── streaming/
+│   ├── wsgi.py
+├── music/
 │   ├── __init__.py
 │   ├── admin.py
 │   ├── apps.py
 │   ├── migrations/
 │   ├── models.py
 │   ├── templates/
-│   │   ├── base.html
-│   │   ├── home.html
-│   │   ├── login.html
-│   │   ├── register.html
-│   │   ├── playlist_detail.html
-│   │   └── song_detail.html
+│   │   ├── music/
+│   │   │   ├── base.html
+│   │   │   ├── index.html
+│   │   │   ├── song_detail.html
+│   │   │   ├── login.html
+│   │   │   ├── register.html
 │   ├── static/
-│   │   └── css/
-│   │       └── styles.css
+│   │   ├── music/
+│   │   │   ├── css/
+│   │   │   │   ├── styles.css
+│   │   │   ├── js/
+│   │   │   │   ├── player.js
+│   ├── tests.py
 │   ├── urls.py
-│   └── views.py
-└── requirements.txt
+│   ├── views.py
 """
